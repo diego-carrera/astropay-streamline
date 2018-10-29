@@ -1,7 +1,7 @@
 {
   "name": "astropay/streamline",
   "description": "The AstroPay Direct Streamline API allows Merchants to integrate payments via Credit Card, Online Bank Payment and Cash Payment Methods (e.g. Boleto Bancario in Brazil and OXXO in Mexico). Customers do not need to visit an AstroPay page to enter any details, so the payment process is “Streamlined”. However, in order for Streamline to work, AstroPay needs the merchant to collect some key data (email address and personal identity number – eg CPF number in Brazil). If you are not able to collect this information, Astropay is capable of collecting it. Please contact us in order to provide more details.",
-  "version": "1.0",
+  "version": "1.1",
   "autoload": {
     "psr-0" : {
       "AstroPayStreamline": "src"

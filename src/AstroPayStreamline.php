@@ -59,10 +59,10 @@ class AstroPayStreamline {
 	public function __construct(){
 		$this->errors = 0;
 
-		$this->url['newinvoice'] = 'https://astropaycard.com/api_curl/streamline/newinvoice/';
-		$this->url['status'] = 'https://astropaycard.com/apd/webpaystatus';
-		$this->url['exchange'] = 'https://astropaycard.com/apd/webcurrencyexchange';
-		$this->url['banks'] = 'https://astropaycard.com/api_curl/apd/get_banks_by_country';
+		$this->url['newinvoice'] = 'https://apd-api.astropay.com/api_curl/streamline/newinvoice/';
+		$this->url['status'] = 'https://apd-api.astropay.com/apd/webpaystatus';
+		$this->url['exchange'] = 'https://apd-api.astropay.com/apd/webcurrencyexchange';
+		$this->url['banks'] = 'https://apd-api.astropay.com/api_curl/apd/get_banks_by_country';
 
 		if ($this->sandbox){
 			$this->url['newinvoice'] = 'https://sandbox.astropaycard.com/api_curl/streamline/newinvoice';
